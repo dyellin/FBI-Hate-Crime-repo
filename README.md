@@ -32,10 +32,10 @@
 
 - Reporting Variance by Demographic: Reporting rates do vary significantly, often driven by the victim's relationship with law enforcement and the nature of the bias:
 
--- LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
--- Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
--- Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
--- The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
+  - LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
+  - Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
+  - Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
+  - The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
 
 --
 
