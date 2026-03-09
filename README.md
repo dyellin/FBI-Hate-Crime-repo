@@ -1,16 +1,23 @@
-## FBI Hate Crime 1991 - 2023 Analysis
+# 🧳 FBI Hate Crime Trends and Sociopolitical Correlations 1991–2023
 
-Dataset Location: FBI Hate Crime in the United States
-GitHub Repo: FBI-Hate-Crime-repo
-SQL Script: FBI_Hate_Crime_Script.sql
-Python Notebook: 
-Tableau Dashboard:
-FBI Hate Crime Trends and Sociopolitical Correlations 1991–2023
-February 19, 2026
+** A Data Analytics Project Using Excel, SQL, Python, and Tableau**
 
-1. Background
-The FBI’s Definition of a Hate Crime:
-	“A committed criminal offense which is motivated, in whole or in part, by the offender’s bias(es) against a race, religion, disability, sexual orientation, ethnicity, gender, or gender identity.”
+### 🔗 Project Links
+
+- 📘 **Original Dataset:** [FBI Hate Crime Dataset (1991–2023)](https://github.com/dyellin/FBI-Hate-Crime-repo/blob/fcdc9789de00946e16aaecfc98b7bd49c74ad4cf/hate_crime.csv)
+- 🧾 **SQL Script:** [`FBI_Hate_Crime_Script.sql`](https://github.com/dyellin/FBI-Hate-Crime-repo/blob/fcdc9789de00946e16aaecfc98b7bd49c74ad4cf/FBI_Hate_Crime_Script.sql)
+- 🧾 **Python Notebook:** [`TSA_Claims_2000-2015.sql`](https://github.com/dyellin/FBI-Hate-Crime-repo/blob/fcdc9789de00946e16aaecfc98b7bd49c74ad4cf/FBI_hatecrime.ipynb)
+- 📊 **Tableau Dashboard:** Coming Soon
+- 📖 **Tableau Story:** Coming Soon
+- 💻 **GitHub Repository:** [FBI-Hate-Crime-repo](https://github.com/dyellin/FBI-Hate-Crime-repo)
+
+--
+
+## 1. Background
+
+# 🔍 The FBI’s Definition of a Hate Crime:
+“A committed criminal offense which is motivated, in whole or in part, by the offender’s bias(es) against a race, religion, disability, sexual orientation, ethnicity, gender, or gender identity.”
+
 Key Nuances:
 Perception Matters: Even if the offender is mistaken about the victim’s identity (e.g., attacking someone they thought was Jewish who actually isn't), it is still recorded as a hate crime because the motivation was bias-based.
 The "Two-Tier" Reporting Process: For a record to enter the dataset, it must first be reported to local police, and then the investigating officer must find "objective facts" to label it bias-motivated.
@@ -24,13 +31,13 @@ Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "i
 Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
 The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
 
-2. Summary
+3. Summary
 This report provides a comprehensive preliminary analysis of United States hate crime trends over a thirty-three-year period, from 1991 to 2023. Utilizing an FBI-provided dataset of over 253,776 individual incidents, the research aims to move beyond simple year-over-year statistics to identify how major national events—political, social, and public health-related—correlate with spikes in reported crimes. The analysis reveals that while reporting agencies have increased in number, surges in hate crimes are often precipitated by salient national catalysts, with incident counts during specific "event windows" consistently exceeding baseline levels.
 
-3. Task and Objective
+4. Task and Objective
 The primary task of this investigation is to explore the long-term trajectory of hate crimes in the U.S. and determine if there is a quantifiable relationship between major societal disruptions and the frequency of bias-motivated incidents. By understanding these correlations, law enforcement and public health officials can better predict "at-risk" periods and allocate resources toward community protection and prevention during high-tension national events.
 
-4. Data Sources and Methodology
+5. Data Sources and Methodology
 Source Material
 The analysis is based on FBI Hate Crime Statistics, which aggregate data from thousands of city, county, and state law enforcement agencies across the country. The dataset includes detailed variables such as:
 Incident Specifics: Date, year, location, and the specific offense name (e.g., Intimidation, Aggravated Assault).
@@ -42,7 +49,7 @@ Handling Null Values: Categorical gaps were left as "Unknown" or "Not Specified"
 Enforcing Consistency: Minimum counts were enforced to align with incident definitions—specifically, ensuring that every reported incident had at least one victim and one offender recorded.
 Standardization: Agency and region names were conformed to a consistent format to allow for accurate grouping by the eleven FBI divisions and six regions.
 
-5. Key Findings and Analysis
+6. Key Findings and Analysis
 I. The Catalyst Effect of National Events
 A central finding of this analysis is that hate crime incidents are not static but react sharply to the national climate. When incidents were aggregated at a monthly level and compared against dates of major national events, there was often a measurable spike in incidents.
 This suggests that salient national events act as catalysts, potentially emboldening offenders or increasing the reporting of existing tensions within the community.
