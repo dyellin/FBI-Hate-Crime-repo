@@ -15,13 +15,13 @@
 
 ## 1. Background
 
-# 🔍 The FBI’s Definition of a Hate Crime:
+### 🔍 The FBI’s Definition of a Hate Crime:
 “A committed criminal offense which is motivated, in whole or in part, by the offender’s bias(es) against a race, religion, disability, sexual orientation, ethnicity, gender, or gender identity.”
 
-Key Nuances:
-Perception Matters: Even if the offender is mistaken about the victim’s identity (e.g., attacking someone they thought was Jewish who actually isn't), it is still recorded as a hate crime because the motivation was bias-based.
-The "Two-Tier" Reporting Process: For a record to enter the dataset, it must first be reported to local police, and then the investigating officer must find "objective facts" to label it bias-motivated.
-NIBRS Transition: Since 2021, the FBI has moved to the National Incident-Based Reporting System (NIBRS), which allows for up to five different bias motivations to be recorded for a single incident.
+### 🗂️ Key Nuances:
+**Perception Matters: Even if the offender is mistaken about the victim’s identity (e.g., attacking someone they thought was Jewish who actually isn't), it is still recorded as a hate crime because the motivation was bias-based.**
+**The "Two-Tier" Reporting Process: For a record to enter the dataset, it must first be reported to local police, and then the investigating officer must find "objective facts" to label it bias-motivated.**
+**NIBRS Transition: Since 2021, the FBI has moved to the National Incident-Based Reporting System (NIBRS), which allows for up to five different bias motivations to be recorded for a single incident.**
 Reported vs. Actual Rates:
 Most researchers agree that the FBI data represents the tip of the iceberg. A Bureau of Justice Statistics (BJS) analysis found that over 50% of hate crimes go unreported to police. Of those that are reported, many are never classified as hate crimes due to a lack of evidence or insufficient officer training.
 Reporting Variance by Demographic
