@@ -34,12 +34,12 @@ Most researchers agree that the FBI data represents the tip of the iceberg. A Bu
 
 - Reporting Variance by Demographic:
 
-Reporting rates do vary significantly, often driven by the victim's relationship with law enforcement and the nature of the bias:
+### Reporting rates do vary significantly, often driven by the victim's relationship with law enforcement and the nature of the bias:
 
-LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
-Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
-Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
-The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
+- LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
+- Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
+- Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
+- The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
 
 --
 
@@ -57,15 +57,19 @@ The primary task of this investigation is to explore the long-term trajectory of
 
 ## ⚙️ Data Sources and Methodology
 
-Source Material
+### Source Material
+
 The analysis is based on FBI Hate Crime Statistics, which aggregate data from thousands of city, county, and state law enforcement agencies across the country. The dataset includes detailed variables such as:
-Incident Specifics: Date, year, location, and the specific offense name (e.g., Intimidation, Aggravated Assault).
-Victim and Offender Profiles: Counts of adult and juvenile participants, race, and ethnicity.
-Bias Descriptions: The underlying motivation, ranging from anti-Black and anti-Jewish to anti-Arab and anti-Protestant.
-Data Cleaning and Processing
+- Incident Specifics: Date, year, location, and the specific offense name (e.g., Intimidation, Aggravated Assault).
+- Victim and Offender Profiles: Counts of adult and juvenile participants, race, and ethnicity.
+- Bias Descriptions: The underlying motivation, ranging from anti-Black and anti-Jewish to anti-Arab and anti-Protestant.
+
+### Data Cleaning and Processing
+
 To ensure the integrity of the long-term trends, the raw data underwent a structured cleaning process in Python.
-Handling Null Values: Categorical gaps were left as "Unknown" or "Not Specified" where data was unrecoverable. For numerical fields, a rule-based imputation was used; for instance, if total individual victims were missing, they were computed from adult and juvenile sub-counts.
-Enforcing Consistency: Minimum counts were enforced to align with incident definitions—specifically, ensuring that every reported incident had at least one victim and one offender recorded.
+
+- Handling Null Values: Categorical gaps were left as "Unknown" or "Not Specified" where data was unrecoverable. For numerical fields, a rule-based imputation was used; for instance, if total individual victims were missing, they were computed from adult and juvenile sub-counts.
+- Enforcing Consistency: Minimum counts were enforced to align with incident definitions—specifically, ensuring that every reported incident had at least one victim and one offender recorded.
 Standardization: Agency and region names were conformed to a consistent format to allow for accurate grouping by the eleven FBI divisions and six regions.
 
 ## 🧠 Key Findings and Analysis
@@ -86,9 +90,9 @@ The breadth of the data—covering 10,710 unique agencies—reveals that reporti
 
 ## 🧮 Strategic Recommendations
 
-Event-Based Resource Deployment: Agencies should develop "Response Windows" tied to the national calendar. Local law enforcement should increase community outreach and presence during identified catalyst windows (e.g., highly contested election cycles or salient anniversaries of social events) to dampen the catalyst effect.
-Standardized Reporting Mandates: The analysis encountered significant missing data in agency unit and sub-count fields. To improve the Oversight Committee's ability to track these crimes, federal funding should be tied to the completion of all incident fields, particularly those detailing offender ethnicity and specific bias descriptions.
-Targeted Adult Intervention Programs: Given that adults commit the vast majority of hate crimes, public health and justice initiatives should focus on adult radicalization and bias-reduction programs. While juvenile prevention in schools is valuable, the data suggests the primary liability lies within the adult demographic.
+- Event-Based Resource Deployment: Agencies should develop "Response Windows" tied to the national calendar. Local law enforcement should increase community outreach and presence during identified catalyst windows (e.g., highly contested election cycles or salient anniversaries of social events) to dampen the catalyst effect.
+- Standardized Reporting Mandates: The analysis encountered significant missing data in agency unit and sub-count fields. To improve the Oversight Committee's ability to track these crimes, federal funding should be tied to the completion of all incident fields, particularly those detailing offender ethnicity and specific bias descriptions.
+- Targeted Adult Intervention Programs: Given that adults commit the vast majority of hate crimes, public health and justice initiatives should focus on adult radicalization and bias-reduction programs. While juvenile prevention in schools is valuable, the data suggests the primary liability lies within the adult demographic.
 
 ## 🔍 Avenues for Further Study
 
