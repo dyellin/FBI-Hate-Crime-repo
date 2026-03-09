@@ -28,18 +28,14 @@
 
 - NIBRS Transition: Since 2021, the FBI has moved to the National Incident-Based Reporting System (NIBRS), which allows for up to five different bias motivations to be recorded for a single incident.
 
-- Reported vs. Actual Rates:
+- Reported vs. Actual Rates: Most researchers agree that the FBI data represents the tip of the iceberg. A Bureau of Justice Statistics (BJS) analysis found that over 50% of hate crimes go unreported to police. Of those that are reported, many are never classified as hate crimes due to a lack of evidence or insufficient officer training.
 
-Most researchers agree that the FBI data represents the tip of the iceberg. A Bureau of Justice Statistics (BJS) analysis found that over 50% of hate crimes go unreported to police. Of those that are reported, many are never classified as hate crimes due to a lack of evidence or insufficient officer training.
+- Reporting Variance by Demographic: Reporting rates do vary significantly, often driven by the victim's relationship with law enforcement and the nature of the bias:
 
-- Reporting Variance by Demographic:
-
-### Reporting rates do vary significantly, often driven by the victim's relationship with law enforcement and the nature of the bias:
-
-- LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
-- Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
-- Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
-- The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
+-- LGBTQ+ Communities: Often have higher rates of reported violent victimization (assaults) but may underreport to police due to fears of secondary victimization or privacy concerns.
+-- Religious Minorities: Anti-Jewish and Anti-Muslim incidents often show higher "institutional" reporting (crimes against synagogues/mosques) compared to individual personal assaults.
+-- Immigrant & Ethnic Groups: Language barriers and fear of immigration consequences significantly depress reporting rates. For example, some studies suggest anti-Latino and anti-Asian hate crimes are among the most undercounted in official FBI stats relative to their actual occurrence.
+-- The "Zero-Reporting" Phenomenon: Thousands of city agencies (including some major cities) voluntarily report "zero" hate crimes to the FBI annually. This is often viewed by analysts not as a lack of crime, but as a failure of local reporting infrastructure.
 
 --
 
